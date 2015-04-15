@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "OpenConceptConsulting",
   "summary": "Configures rsnapshot.",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "source": "https://github.com/OpenConceptConsulting/puppet-rsnapshot",
   "project_page": "https://github.com/OpenConceptConsulting/puppet-rsnapshot",
   "issues_url": "https://github.com/OpenConceptConsulting/puppet-rsnapshot/issues",
