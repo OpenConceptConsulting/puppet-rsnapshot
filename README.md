@@ -6,7 +6,6 @@
 2. [Module Description - What the module does and why it is useful](#module-description)
 3. [Setup - The basics of getting started with rsnapshot](#setup)
     * [What rsnapshot affects](#what-rsnapshot-affects)
-    * [Beginning with rsnapshot](#beginning-with-rsnapshot)
 4. [Usage - Configuration options and additional functionality](#usage)
 5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
 5. [Limitations - OS compatibility, etc.](#limitations)
@@ -30,15 +29,6 @@ It is relatively trivial to then add a `cron` rule to trigger rsnapshot, and man
 
 * `rsnapshot` package and its dependencies
 * `/etc/rsnapshot.conf` (by default)
-
-### Beginning with rsnapshot
-
-At the base minimum, you should add a hash of 
-The very basic steps needed for a user to get the module up and running.
-
-If your most recent release breaks compatibility or requires particular steps
-for upgrading, you may wish to include an additional section here: Upgrading
-(For an example, see http://forge.puppetlabs.com/puppetlabs/firewall).
 
 ## Usage
 
