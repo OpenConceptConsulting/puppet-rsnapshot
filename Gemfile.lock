@@ -67,7 +67,7 @@ DEPENDENCIES
   facter
   metadata-json-lint
   pry
-  puppet
+  puppet (< 4.0.0)
   puppet-lint (< 1.1.0)
   puppetlabs_spec_helper
   rake (~> 10.1.0)
