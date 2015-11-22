@@ -58,9 +58,10 @@ linux_lvm_cmd_umount	<%= @linux_lvm_cmd_umount %>
 # i.e. hourly, daily, weekly, etc.      #
 #########################################
 
-<% @retain.each do |name, time| -%>
-retain	<%= name %>	<%= time %>
-<% end -%>
+retain	hourly	<%= retain['hourly'] %>
+retain	daily	<%= retain['daily'] %>
+retain	weekly	<%= retain['weekly'] %>
+retain	monthly	<%= retain['monthly'] %>
 
 ############################################
 #              GLOBAL OPTIONS              #
