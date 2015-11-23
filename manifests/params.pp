@@ -53,7 +53,7 @@ class rsnapshot::params {
   $default_linux_lvm_cmd_umount   = '/sbin/umount'
 
   case $::osfamily {
-    Debian: {
+    'Debian': {
       $package_name  = $default_package_name
       $config        = $default_config
       $logfile       = $default_logfile
