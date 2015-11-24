@@ -1,5 +1,7 @@
 # rsnapshot
 
+[![Build Status](https://travis-ci.org/OpenConceptConsulting/puppet-rsnapshot.svg?branch=master)](https://travis-ci.org/OpenConceptConsulting/puppet-rsnapshot)
+
 #### Table of Contents
 
 1. [Overview](#overview)
